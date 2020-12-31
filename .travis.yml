@@ -30,6 +30,6 @@
       space:
         secure: QXgjIqZHYgR408y/Ik7PG9RQLwJxMO/1bDqqqDM1iAjkLJpw4ruZ8pAG/PfWk5bAZDXpPN9wXRl/Ff9/GfN8Je/VvT4Kd5fWdJHZcpo+HTVDoRbaE1YxprjAnDg8bzhzwbFiiSPs+TO4lJYFe9G5sNtgsVfyvnWdfPPwavWdu5HWBEzk9AC97nkFF0dKoZRREcU6FSsqs6Q6QBBs6OOvUTjkZ/MN0raGn3MQJOy5L1VKnYE5x5Zy7hkoBrEvWAgreHuJSnteW24jLg1hxAv8oFtfWUADB2ci9lYUHdVTyzYBV9nA194lRJzKYFm3GVfimt/w3IMBAyXXRt8lFR+zZQlWrWkQLH7mojA3aT2sAc061mVoKMUKybWRovlLYqf1Jv0sPy5ZOEuJ0A12JJLhBtoTQBK8oqcYtAePfboWt7pJPBoVFd5VqgQr9x3MqfJxOdO4MTteImNKpqLEJR+rdXyNSNEMPclpBvbnkKbknd5T0awBptjfksA9uUfJPEcZYsT26KHgjn7ebt4mLSTRRV4/YZvWygSVS0oAHMVvJMKccxa/wIC2FJ6HvPcb6brgMX1D/msY97S5ZoV6sESpiXTX/jUGHmWjHGP8oxZ/8uo5jNvd13qMe/f/8L+1sOBDtspJGuGH1inSn/UGmsn1rWDSbrB7kE8n8y00urntO3g=
       manifest: ../manifest.yml
-      skip-cleanup: true
+      skip-cleanup: false
       on:
         branch: travis
