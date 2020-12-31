@@ -1,4 +1,6 @@
-name: ccs-sso
-instances: 1
-memory: 50M
-buildpack: staticfile_buildpack
+---
+applications:
+- name: ccs-sso
+  instances: 1
+  memory: 512M
+  buildpack: staticfile_buildpack
