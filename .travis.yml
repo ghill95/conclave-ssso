@@ -18,7 +18,6 @@ before_deploy:
 - cd dist
 - cp index.html 404.html
 deploy:
-  matrix:
   - provider: cloudfoundry
     username:
       secure: Cnvxi4EQvMeuksD/oadKMQ7Ccl/S0zJQknpfnSm1J1EcOn2nvBPiLDtkY0CoedKc+bNfl0KiGHZ/NoLfUvY20Qf9quas54ZuLhrF3Vo/jC9crmAVXnvP17hDeVCVlA8kSZuZrnkhUFbY60BpGxdFiAunPhlVg0Y0uVeEwX7GEO+S3DRfWVVD4OKm5Ph+ynu6VjS9UwmQP2VoK70Ozf/M/UvWV9liWASnRbOCh6nfC2u80qco0y+b2tmPVlmaVSzFrw9aOAnwPiwFepeae0M+5Qb2rQFdSc//i6KIc+8x3k5FyBronttmXp1eXzdJmN4oaWmpO0Nn+yfKkE0UOw1Hq1cazBjVYxx5t8UnykDJBSIWvboJcxoSNf9BRSGWLooYndulIumetTvwuOl46CbfiyMzR3CVLSb5zlY6fc8fo+YS+2ymUdX3wgpmDVXf/SPX1oZMpqm1QWpd+yZ5KubVmvT1h+LD1UlAXRW0YltOtFCqUghGbnP6+R7t17ZLkEOoFBjgZ05/qcwOC6s9n6mvgfrD2kMrbn6kAN+6WveRU4PJFBhhWh7pNKRHN0fosuQZFxXTM2bM4r/mJJOO6ejpmmMNnp++HJ4hHBnQiEaCL3qqU7X4lpYOCSAa7jbci8SYgl4FvElhG8xSkHc9woHlW7OYynqSGg/c6ywz2aiC8q4=
@@ -33,4 +32,4 @@ deploy:
     manifest: "../manifest.yml"
     skip-cleanup: true
     on:
-      branch: all
+      branch: travis
